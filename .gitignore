@@ -1,0 +1,4 @@
+foodenv/
+__pycache__/
+*.pyc
+.env

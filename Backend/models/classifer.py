@@ -1,0 +1,1 @@
+#Seperate Class for the trained model

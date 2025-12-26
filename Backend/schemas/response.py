@@ -1,0 +1,1 @@
+#pydantic model for response returned from the backend to enforce structure and validation.

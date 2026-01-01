@@ -27,8 +27,8 @@ This is a **full-stack AI-powered web application** that allows users to:
 1. User uploads an image of a vegetable.
 2. The **frontend** sends the image to the **FastAPI backend**.
 3. Backend uses the **CNN model** to predict the vegetable.
-4. Backend calls **Nutrition API** to fetch nutrient info.
-5. Backend returns the Prediction and the nutrient info to the frontend.
+4. Backend calls **Nutrition API** to fetch nutrient information.
+5. Backend returns the Prediction and the nutrient information to the frontend.
 
 ---
 

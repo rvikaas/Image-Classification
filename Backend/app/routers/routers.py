@@ -10,14 +10,17 @@ router = APIRouter()
 @router.post("/predict")
 async def predict_image(file: UploadFile = File(...)):
     
+    print("Reached router")
     image = Image.open(file.file).convert('RGB')
 
     #Run inference
-    predicted_class,probabilty = run_inference(image)
+    predicted_class,probabilty,nutrients = run_inference(image)
+    print(nutrients)
 
     return PredictionResponse(
         class_name = predicted_class,
-        confidence = probabilty
+        confidence = probabilty,
+        nutrition = nutrients
         )
 
 

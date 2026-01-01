@@ -6,6 +6,7 @@ image_size = (224,224)
 
 
 def image_preprocessor(image:Image.Image):
+    
     resized_image = image.resize(image_size)
     
     image_array = np.array(resized_image)

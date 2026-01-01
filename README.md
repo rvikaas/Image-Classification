@@ -9,7 +9,7 @@ This is a **full-stack AI-powered web application** that allows users to:
 - Display **model confidence** for the prediction.
 - Fetch **nutrition information per 100g** using an external API.
 - Provide users with **health insights** based on nutritional data.
-- 
+  
 ---
 
 ## 💻 Tech Stack

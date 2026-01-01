@@ -32,9 +32,6 @@ This is a **full-stack AI-powered web application** that allows users to:
 
 ---
 
-## 🛠️ Installation
-
-Follow these steps to set up the project locally.
 
 ### Clone Repository
 ```bash

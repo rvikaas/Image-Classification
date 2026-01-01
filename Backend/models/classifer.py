@@ -5,4 +5,6 @@ class Classifier:
         self.model = load_model(model_path)
 
     def predict(self, x):
+        print("prediction function called")
         return self.model.predict(x)
+        print("prediction function finished")

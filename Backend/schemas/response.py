@@ -1,1 +1,6 @@
-#pydantic model for response returned from the backend to enforce structure and validation.
+from pydantic import BaseModel
+
+
+class PredictionResponse(BaseModel):
+    class_name: str
+    confidence: float

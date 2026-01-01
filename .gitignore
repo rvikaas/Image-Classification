@@ -2,3 +2,4 @@ foodenv/
 __pycache__/
 *.pyc
 .env
+Backend/model/cnn_model.h5

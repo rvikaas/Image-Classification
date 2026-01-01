@@ -5,7 +5,7 @@
 This is a **full-stack AI-powered web application** that allows users to:
 
 - Upload an image of a vegetable.
-- Predict the type of vegetable using a **Convolutional Neural Network (CNN)**.
+- Predict the 15 types of vegetables using a **Convolutional Neural Network (CNN)**.
 - Display **model confidence** for the prediction.
 - Fetch **nutrition information per 100g** using an external API.
 - Provide users with **health insights** based on nutritional data.

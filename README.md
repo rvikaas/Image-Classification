@@ -29,3 +29,17 @@ This is a **full-stack AI-powered web application** that allows users to:
 3. Backend uses the **CNN model** to predict the vegetable.
 4. Backend calls **Nutrition API** to fetch nutrient info.
 5. Backend returns the Prediction and the nutrient info to the frontend.
+
+---
+
+## 🛠️ Installation
+
+Follow these steps to set up the project locally.
+
+### Clone Repository
+```bash
+git clone https://github.com/your-username/vegetable-nutrition-ai.git
+cd vegetable-nutrition-ai
+
+---
+

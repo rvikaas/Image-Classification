@@ -16,7 +16,7 @@ This is a **full-stack AI-powered web application** that allows users to:
 
 - **Frontend**: React.js, HTML, CSS
 - **Backend**: FastAPI, Python
-- **AI Model**: Convolutional Neural Network (Keras/TensorFlow)
+- **CNN Model**: Convolutional Neural Network (Keras/TensorFlow), EfficientNetV2M
 - **External API**: [API-Ninjas Nutrition API](https://api.api-ninjas.com/)
 - **Environment Variables**: `.env` for API keys
 
@@ -32,11 +32,25 @@ This is a **full-stack AI-powered web application** that allows users to:
 
 ---
 
+## ⚙️ Installation & Setup
 
-### Clone Repository
-```bash
-git clone https://github.com/your-username/vegetable-nutrition-ai.git
+### 1️⃣Clone Repository
+git clone https://github.com/rvikaas/Image-Classification.git
 cd vegetable-nutrition-ai
+
+### 2️⃣ Backend Setup
+- venv\Scripts\activate
+- pip install -r requirements.txt
+- Download the cnn model from [https://drive.google.com/file/d/159e9mAiSqZLVbujpnxDTcR4sPYnliZMK/view?usp=drive_link]
+- cd Backend
+- save the downloaded model file in a folder named model
+- cd ..
+- uvicorn Backend.main:app --reload
+  
+### 3️⃣ Frontend Setup
+- cd frontend
+- npm install
+- npm run dev
 
 ---
 
